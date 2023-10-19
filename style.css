@@ -22,24 +22,4 @@ body {
     height: 50px;
     background-color: #f00;
     bottom: 50%;
-    animation: fly 0.5s infinite alternate;
-}
-
-@keyframes fly {
-    0% { transform: translateY(-50%); }
-    100% { transform: translateY(-60%); }
-}
-
-.pipe {
-    position: absolute;
-    width: 80px;
-    height: 400px;
-    background-color: #00f;
-    bottom: 0;
-    animation: movePipe 2s linear infinite;
-}
-
-@keyframes movePipe {
-    0% { left: 100%; }
-    100% { left: -80px; }
 }
