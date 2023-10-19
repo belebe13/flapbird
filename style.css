@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4ec0ca;
+}
+
+.game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.bird {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #f00;
+    bottom: 200px;
+}
+
+.pipe {
+    position: absolute;
+    width: 80px;
+    height: 400px;
+    background-color: #00f;
+    bottom: 0;
+}
