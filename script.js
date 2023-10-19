@@ -1,10 +1,8 @@
 const bird = document.querySelector('.bird');
 const gameContainer = document.querySelector('.game-container');
-const pipe = document.querySelector('.pipe');
 
 let birdBottom = 250;
 let gravity = 2;
-let gameSpeed = 10;
 let isGameOver = false;
 
 function startGame() {
